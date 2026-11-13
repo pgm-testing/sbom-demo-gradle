@@ -26,7 +26,7 @@ jobs:
           dependency-graph: disabled
       - name: Resolve and exercise dependencies
         run: |
-          gradle --no-daemon build run --write-locks
+          gradle --no-daemon build run
           gradle --version > evidence/toolchain.txt
       - name: Fetch and submit using unchanged Atlas Action
         id: atlas
