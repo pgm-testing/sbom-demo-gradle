@@ -1,6 +1,5 @@
 # PG Atlas SBOM demo: gradle
 
-Phase 1 baseline for [D1](https://github.com/SCF-Public-Goods-Maintenance/pg-atlas-sbom-action/issues/10).
 This is an unpublished test repository and must stay unattached to an Atlas project.
 
 ## Expected dependencies
